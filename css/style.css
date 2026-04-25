@@ -1786,6 +1786,11 @@ h1, h2, h3, .big-heading {
 	font-weight: 400;
 }
 
+#slider h1 {
+	font-family: 'Great Vibes', 'Playfair Display', serif;
+	font-weight: 400;
+}
+
 #portfolio .videos .thumbnail-overlay:after {
 	display: none;
 }
