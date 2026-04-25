@@ -575,10 +575,10 @@ footer h2 {
 ==================================================== */
 
 /*story section images*/
-.story-img-1{ background: url("../image/story-01.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-img-2{ background: url("../image/story-02.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-img-3{ background: url("../image/story-03.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-img-4{ background: url("../image/story-04.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-img-1{ background: url("../image/story-01.jpg") no-repeat center center; }
+.story-img-2{ background: url("../image/story-02.jpg") no-repeat center center; }
+.story-img-3{ background: url("../image/story-03.jpg") no-repeat center center; }
+.story-img-4{ background: url("../image/story-04.jpg") no-repeat center center; }
 
 .story-img {
 	height: 14rem;
@@ -591,7 +591,22 @@ footer h2 {
 .story-img-4 {
 	height: 17rem;
     width: 100%;
-	border-radius: 3px;
+	border-radius: 26px;
+	border: 3px solid #fff;
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+	overflow: hidden;
+	background-size: cover;
+	background-color: transparent;
+	animation: storyZoomIn 5s ease-in-out infinite alternate;
+}
+
+@keyframes storyZoomIn {
+	from {
+		background-size: 100%;
+	}
+	to {
+		background-size: 118%;
+	}
 }
 #story .tline-title{
 	margin-top: 17px;
