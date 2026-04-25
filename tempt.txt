@@ -1,0 +1,16 @@
+<div class="product"
+                onclick="location.href='';">
+                <img src=""
+                    alt="">
+                <div class="product-info">
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="product"
+                onclick="location.href='';">
+                <div class="product-info">
+                    <h2></h2>
+                </div>
+                <img src=""
+                    alt="">
+            </div>
